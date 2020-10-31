@@ -11,7 +11,7 @@ CACHEDIR="$CONTRIB/build-linux/appimage/.cache/appimage"
 PYDIR="$APPDIR"/usr/lib/python3.6
 
 export GCC_STRIP_BINARIES="1"
-export GIT_SUBMODULE_FLAGS="--recommend-shallow --depth 1"
+export GIT_SUBMODULE_FLAGS=""
 
 . "$CONTRIB"/base.sh
 
